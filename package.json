@@ -16,9 +16,9 @@
     "dt-jquery": "~0.3.3",
     "coffee-script": "~1.2.0"
   },
-  "keywords": ["localisation", "dyanamictemplate"],
+  "keywords": ["localisation", "dynamictemplate"],
   "scripts": {
-    "postinstall": "./build.sh"
+    "postinstall": "./configure.sh; ./build.sh"
   },
   "devDependencies": {
   },
